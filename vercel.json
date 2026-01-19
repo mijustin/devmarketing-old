@@ -1,0 +1,26 @@
+ {
+    "redirects": [
+      {
+        "source": "/:path*",
+        "destination": "https://marketingfordevelopers.com/:path*",
+        "has": [
+          {
+            "type": "host",
+            "value": "devmarketing.xyz"
+          }
+        ],
+        "permanent": true
+      },
+      {
+        "source": "/:path*",
+        "destination": "https://marketingfordevelopers.com/:path*",
+        "has": [
+          {
+            "type": "host",
+            "value": "www.devmarketing.xyz"
+          }
+        ],
+        "permanent": true
+      }
+    ]
+  }
